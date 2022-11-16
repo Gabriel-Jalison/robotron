@@ -21,7 +21,7 @@ function typeWriter(elemento) {
     textoArray.forEach((letra, i) => {
         setTimeout( function() {
             elemento.innerHTML += letra;
-        }, 99 * i)
+        }, 140 * i)
     });
 }
 
